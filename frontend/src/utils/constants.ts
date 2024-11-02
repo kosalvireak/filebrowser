@@ -1,4 +1,4 @@
-const name: string = window.FileBrowser.Name || "File Browser";
+const name: string = "Crossroads File Browser";
 const disableExternal: boolean = window.FileBrowser.DisableExternal;
 const disableUsedPercentage: boolean = window.FileBrowser.DisableUsedPercentage;
 const baseURL: string = window.FileBrowser.BaseURL;
@@ -7,7 +7,7 @@ const recaptcha: string = window.FileBrowser.ReCaptcha;
 const recaptchaKey: string = window.FileBrowser.ReCaptchaKey;
 const signup: boolean = window.FileBrowser.Signup;
 const version: string = window.FileBrowser.Version;
-const logoURL = `${staticURL}/img/logo.svg`;
+const logoURL = "https://raw.githubusercontent.com/rongroeung/cr-website/refs/heads/development/src/assets/img/logo.png";
 const noAuth: boolean = window.FileBrowser.NoAuth;
 const authMethod = window.FileBrowser.AuthMethod;
 const loginPage: boolean = window.FileBrowser.LoginPage;

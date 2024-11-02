@@ -15,6 +15,7 @@ export default {
   data() {
     let dataObj = {};
     const locales = {
+      kh: "Khmer",
       he: "עברית",
       hu: "Magyar",
       ar: "العربية",

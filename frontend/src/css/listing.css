@@ -21,7 +21,7 @@ html[dir="rtl"] #listing {
 }
 
 #listing .item {
-  background: var(--surfacePrimary);
+  background: var(--cr-sub-secondary-color);
   border-color: var(--divider);
   position: relative;
   display: flex;

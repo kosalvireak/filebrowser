@@ -1,8 +1,8 @@
 <template>
   <div id="login" :class="{ recaptcha: recaptcha }">
     <form @submit="submit">
-      <img :src="logoURL" alt="File Browser" />
-      <h1>{{ name }}</h1>
+      <img :src="logoURL" alt="Crossroads Logo" />
+      <h2 class="text-center">{{ name }}</h2>
       <div v-if="error !== ''" class="wrong">{{ error }}</div>
 
       <input
@@ -125,3 +125,13 @@ onMounted(() => {
   });
 });
 </script>
+
+<style scoped>
+.button {
+  background-color: var(--cr-primary-color);
+  margin-top: 1rem;
+}
+.button:hover {
+  background-color: var(--cr-sub-primary-color);
+}
+</style>

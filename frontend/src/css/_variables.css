@@ -35,16 +35,20 @@
   --dividerSecondary: rgba(255, 255, 255, 0.9);
 }
 
-:root.dark {
+:root {
   --input-red: rgb(115, 48, 45);
   --input-green: rgb(20, 122, 65);
 
   --action: rgb(255, 255, 255);
 
   --background: rgb(20, 29, 36);
+  --cr-primary-color: #f5a807;
+  --cr-secondary-color: #021b4b;
+  --cr-sub-primary-color: #f5aa07c5;
+  --cr-sub-secondary-color: #01153a;
   --surfacePrimary: rgb(32, 41, 47);
   --surfaceSecondary: rgb(58, 65, 71);
-  --textPrimary: rgba(255, 255, 255, 0.6);
+  --textPrimary: #f4f5f7;
   --textSecondary: rgba(255, 255, 255, 0.87);
   --divider: rgba(255, 255, 255, 0.12);
   --iconPrimary: rgb(255, 255, 255);
