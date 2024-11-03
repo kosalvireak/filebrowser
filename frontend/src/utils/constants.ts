@@ -1,4 +1,4 @@
-const name: string = "Crossroads File Browser";
+const name: string = "Crossroads Cloud Storage";
 const disableExternal: boolean = window.FileBrowser.DisableExternal;
 const disableUsedPercentage: boolean = window.FileBrowser.DisableUsedPercentage;
 const baseURL: string = window.FileBrowser.BaseURL;
